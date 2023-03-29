@@ -67,7 +67,7 @@ a {
 h1{
   margin: 1%;
   text-shadow: 0.1rem 0.2rem #616060;
-  color: #5ebb89;
+  color: #4ad189;
   font-family: 'Lobster', cursive;
 }
 
@@ -86,10 +86,7 @@ span{
 =========================*/
 main{
   padding-top: 5%;
-  font-family: 'Comic Neue', cursive;
-  font-family: 'Knewave', cursive;
-  font-family: 'PT Sans', sans-serif;
-  font-style: italic;
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
   color:rgb(9, 9, 9)
 }
 
@@ -132,8 +129,9 @@ main .hero .load-text {
   left: 30%;
   top: 35%;
   opacity: 0;
-  animation: load-text 8s;
+  animation: load-text 5s;
 }
+
 
 main .hero .picture-flow {
   display: flex;
@@ -154,7 +152,7 @@ main .hero .picture-flow .flow1 {
 main .hero .picture-flow .flow1 .picture1 {
   grid-column: 2/8;
   grid-row: 3/6;
-  background-image: url("../img/animation/denji3.png");
+  background-image: url("../img/animation/kishibe2.png");
   background-size: cover;
   animation: hero3 4s ease-out 12s forwards;
   opacity: 0;
@@ -180,7 +178,7 @@ main .hero .picture-flow .flow1 .picture3 {
 }
 main .hero .picture-flow .flow1 .picture4 {
   grid-column: 16/20;
-  grid-row: 5/8;
+  grid-row: 6/8;
   background-image: url("../img/animation/denji1.png");
   background-size: cover;
   animation: hero3 4s ease-out 12s forwards;
@@ -201,7 +199,7 @@ main .hero .picture-flow .flow2 {
 main .hero .picture-flow .flow2 .picture1 {
   grid-column: 2/7;
   grid-row: 2/5;
-  background-image: url("../img/animation/chainsow2.png");
+  background-image: url("../img/animation/denji3.png");
   background-size: cover;
   animation: hero3 4s ease-out 12s forwards;
   opacity: 0;
@@ -228,7 +226,7 @@ main .hero .picture-flow .flow2 .picture3 {
 main .hero .picture-flow .flow2 .picture4 {
   grid-column: 16/19;
   grid-row: 5/7;
-  background-image: url("../img/animation/kishibe2.png");
+  background-image: url("../img/animation/ghost.png");
   background-size: cover;
   animation: hero3 4s ease-out 12s forwards;
   opacity: 0;
@@ -245,7 +243,7 @@ main .hero .text-flow1 {
 main .hero .text-flow1 .flow1 {
   width: 2000px;
   height: 648px;
-  animation: wallflow1 55s infinite linear -27.5s both;
+  animation: wallflow1 60s infinite linear -27.5s both; /* --- text-flow1 speed ----- */
   flex-grow: 1;
   overflow: hidden;
   align-items: center;
@@ -257,7 +255,7 @@ main .hero .text-flow1 .flow1 {
 /* ------------------- text-flow1 flow1 text 1~ 5 ------------------- */
 main .hero .text-flow1 .flow1 .text1 {
   font-size: 2rem;
-  grid-column: 2/8;
+  grid-column: 1/8;
   grid-row: 3/4;
   animation: hero1 5s ease-out 12s forwards;
   opacity: 0;
@@ -279,14 +277,14 @@ main .hero .text-flow1 .flow1 .text3 {
 main .hero .text-flow1 .flow1 .text4 {
   font-size: 2rem;
   grid-column: 9/19;
-  grid-row: 4/5;
+  grid-row: 3/5;
   animation: hero1 5s ease-out 12s forwards;
   opacity: 0;
 }
 main .hero .text-flow1 .flow1 .text5 {
   font-size: 2rem;
-  grid-column: 15/19;
-  grid-row: 6;
+  grid-column: 19/19;
+  grid-row: 3/5;
   animation: hero1 5s ease-out 12s forwards;
   opacity: 0;
 }
@@ -332,8 +330,8 @@ main .hero .text-flow1 .flow2 .text4 {
 }
 main .hero .text-flow1 .flow2 .text5 {
   font-size: 2rem;
-  grid-column: 14/19;
-  grid-row: 7/8;
+  grid-column: 19/19;
+  grid-row: 2/8;
   opacity: 0;
   animation: hero1 5s ease-out 12s forwards;
 }
@@ -381,14 +379,14 @@ main .hero .text-flow2 .flow1 .text3 {
 }
 
 main .hero .text-flow2 .flow1 .text4 {
-  grid-column: 2/8;
-  grid-row: 13/14;
+  grid-column: 1/8;
+  grid-row: 2/14;
   font-size: 3rem;
   animation: hero2 6s ease-out 12s forwards;
   opacity: 0;
 }
 main .hero .text-flow2 .flow1 .text5 {
-  grid-row: 17/18;
+  grid-row: 18/18;
   grid-column: 1/8;
   font-size: 3rem;
   animation: hero2 6s ease-out 12s forwards;
@@ -644,13 +642,422 @@ main .chara-navi {
 /*=========================
    middle-container
 =========================*/
+/* ------------------- Index ------------------- */
+
+
+
+/* .gallery{  
+  margin: 20% auto;
+  height: 400px;
+  width: 90%;
+  display: grid;
+  gap:10px 30px;
+  overflow: hidden;
+  position: relative;
+} */
+
+/* .gallery section {
+  height: 200px;
+  width: 100%;
+  margin: 2.5%;
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery .gallery-overlay{
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    left: -100%;
+    transition: left 0.7s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery section:hover .gallery-overlay{
+    left: 0;
+    color: white;
+} */
+
+
+
+.img02 {
+  background: url(/img/animation/makima4.png);
+  grid-row: 1/2;
+  grid-column: 2/3;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.img03 {
+  background: url(/img/animation/denji5.png);
+  grid-row: 1/2;
+  grid-column: 3/4;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.img04 {
+  background: url(/img/animation/aki1.png);
+  grid-row: 1/2;
+  grid-column: 4/5;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* ------------------- story1 ------------------- */
+.story1 .story2{
+   position: relative;
+   text-align: center;
+   margin: 30%;
+}
+
+.firsttext{
+  font-size: 2rem;
+  color: #b64e4e;
+  text-shadow: 0.1rem 0.1rem #474747;
+}
+
+.img-makima{
+  width:8%;
+  position: absolute;
+  left: 45%;
+  bottom: 90%;
+}
+
+.img-chain-l{
+  width:50%;
+  position: absolute;
+  right: 50%;
+  bottom: 45%;
+  filter: invert(10%);
+  opacity: 0.5;
+}
+
+.img-chain-r{
+  width:50%;
+  position: absolute;
+  left: 50%;
+  bottom: 45%;
+  filter: invert(10%);
+  opacity: 0.5;
+} 
+
+.each-titles{
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+/* ------------------- character coma1 ------------------- */
+.character1{
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-top: 0%;
+  margin-bottom: 10%;
+  padding: 2%;
+  height: 100%;
+  color: #2b2a2a;
+  word-wrap: break-word;
+  text-shadow: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.character1-box1{
+  display: grid;
+  gap: 5%;
+  margin: 5%;
+  position: relative;
+}
+
+.character1-box2{
+  display: grid;
+  gap: 5%;
+  margin: 5%;
+  position: relative;
+}
+
+.coma1{
+  width: 100%;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.coma1_character{
+  width: 22%;
+  right:55%;
+  top: 7%;
+  position: absolute;
+  filter: drop-shadow(1.7rem -1rem 0.5rem rgb(128, 126, 126));
+}
+
+.coma1_hukidashi{
+  width: 22%;
+  right:75%;
+  top:10%;
+  position: absolute;
+  transition-delay: 1000ms;
+  filter: drop-shadow(0.5rem 0.5rem 0rem rgb(128, 126, 126));
+}
+
+/* ---profile hover ----- */
+.characterintro1{
+  background-color: hsl(0, 0%, 97%, 0.3);
+  border-radius: 1rem;
+  width: 100%;
+  text-align: left;
+  overflow: hidden;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.characterintro2{
+  background-color: hsl(0, 0%, 97%, 0.3);
+  border-radius: 1rem;
+  width: 100%;
+  text-align: left;
+  overflow: hidden;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.gallery{  
+  height: 100%;
+  width: 100%;
+  display: grid;
+  overflow: hidden;
+  position: relative;
+}
+
+.gallery section {
+  height: 100%;
+  width: 100%;
+  margin: 2.5%;
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery .gallery-overlay{
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -100%;
+  transition: top 0.7s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+}
+
+.characterintro1 section:hover .gallery-overlay{
+  top: 0;
+  color: white;
+}
+
+.characterintro2 section:hover .gallery-overlay{
+  top: 0;
+  color: white;
+}
+
+.prof {
+  padding: 15%;
+  opacity: 0.8;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  color: rgb(238, 234, 234);
+  font-size: 1.5rem;
+  text-stroke: 1px #000;
+  -webkit-text-stroke: 1px #000;
+}
+
+#prof1{
+  background: url(/img/character/pop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#prof2{
+  background: url(/img/character/pochita.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#prof3{
+  background: url(/img/character/easyrevenge.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#prof4{
+  background: url(/img/character/myako.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#prof5{
+  background: url(/img/character/friends.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#prof6{
+  background: url(/img/character/chansowmana.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#prof7{
+  background: url(/img/character/showes.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#prof8{
+  background: url(/img/character/denji.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* ------------------- story2 ------------------- */
+.top-yoru{
+  position: absolute;
+  width: 13%;
+  left: 45%;
+  bottom: 90%;
+}
+
+.chacken-r{
+  position: absolute;
+  width: 10%;
+  right: 65%;
+  top:-25%;
+}
+
+.chacken-l-01{
+  position: absolute;
+  width: 10%;
+  right: 60%;
+  top:-18%;
+  transform: rotate(20deg);
+}
+
+.chacken-l-02{
+  position: absolute;
+  left: 65%;
+  width: 10%;
+  top:-18%;
+  transform: rotateY(180deg)
+}
+
+.wing-01{
+  position: absolute;
+  right: 55%;
+  width: 8%;
+  top: -60%;
+  transform: rotate(-10deg);
+}
+
+.wing-02{
+  position: absolute;
+  width: 9%;
+  right: 67%;
+  top: -120%;
+}
+
+.wing-03{
+  position: absolute;
+  left: 65%;
+  width: 8%;
+  top: -100%;
+  transform: rotate(30deg);
+}
+
+.wing-04{
+  position: absolute;
+  width: 7%;
+  left: 60%;
+  top: -10%;
+  transform: rotate(50deg);
+}
+
+.wing-05{
+  position: absolute;
+  left: 75%;
+  width: 11%;
+  top: -25%;
+  transform: rotate(-10deg);
+}
+.wing-06{
+  position: absolute;
+  width: 13%;
+  left: 10%;
+  top: -45%;
+  transform: rotate(50deg);
+}
+
+/* ------------------- character coma2------------------- */
+.coma2{
+  width: 100%;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.coma2_character{
+  width: 25%;
+  position: absolute;
+  left: 70%;
+  bottom: 2%;
+  filter: drop-shadow(1.5rem -1rem 0.5rem rgb(44, 44, 44));
+}
+
+.coma2_hukidashi{
+  width: 18%;
+  position: absolute;
+  left: 55%;
+  top: 10%;
+  transition-delay: 1000ms;
+  filter: drop-shadow(0.5rem 0.5rem 0rem rgb(44, 44, 44));
+}
+
+/* ------------------- * JS ------------------- */
+.scroll-up {
+  opacity: 0; 
+  visibility: hidden;
+  transform: translateY(50px);
+  transition: all 1s;
+}
+
+.scroll-up.is-show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0px);
+}
+
+/* ------------------- Author ------------------- */
 .box-section{
   background-color: hsl(0, 0%, 97%, 0.3);
   border-radius: 1rem;
-  margin: 5% 15%;
+  margin: 3% 15%;
   padding: 2%;
   height: 100%;
-  color: #f8f8f8;
+  color: #333333;
   word-wrap: break-word;
   text-shadow: none;
 }
@@ -664,9 +1071,12 @@ main .chara-navi {
   padding: 2%;
 }
 
-/*=========================
-   comics
-=========================*/
+.manga-title{
+  color: white;
+  text-shadow: 0.1rem 0.1rem #333333;
+}
+
+/* ------------------- comics ------------------- */
 @keyframes infinity-scroll-left {
   from {
     transform: translateX(0);
@@ -710,6 +1120,7 @@ animation: infinity-scroll-left 60s infinite linear 0.5s both; /* imgs display a
   height: 20rem;
 }
 
+
 /*=========================
    footer
 =========================*/
@@ -719,6 +1130,11 @@ footer{
   width: 100%;
   text-align: center;
   padding: 0.5rem;
+}
+
+.trigger{
+  width: 17%;
+  margin-left: 80%;
 }
 
 /*=========================
