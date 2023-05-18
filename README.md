@@ -18,18 +18,15 @@
   </p>
 </p>
 
-![Downloads](https://img.shields.io/github/downloads/Atena Hatta/chainsowman/total) ![Issues](https://img.shields.io/github/issues/Atena Hatta/chainsowman) ![License](https://img.shields.io/github/license/Atena Hatta/chainsowman) 
 
 ## Table Of Contents
 
 * [About the Project](#about-the-project)
 * [Built With](#built-with)
-* [Getting Started](#getting-started)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [License](#license)
 * [Authors](#authors)
-* [Acknowledgements](#acknowledgements)
 
 ## About The Project
 
@@ -38,13 +35,7 @@
 The Header section includes Story (Chapter 1, 2), Characters, and Author. This page serves as a landing page, allowing you to scroll and view all the content. It's worth noting that for the animations, we've utilized only CSS and vanilla JavaScript.
 
 ## Built With
-
 JavaScript
-
-## Getting Started
-
-
-To get a local copy up and running follow these simple example steps.
 
 ## Roadmap
 
@@ -72,11 +63,6 @@ Distributed under the MIT License. See [LICENSE](https://github.com/Atena Hatta/
 
 ## Authors
 
-* **Atena Hatta** - ** - [Atena Hatta](https://github.com/AtenaHatta) - **
+Atena Hatta [Atena Hatta](https://github.com/AtenaHatta)
 
-## Acknowledgements
-
-* []()
-* []()
-* []()
 
