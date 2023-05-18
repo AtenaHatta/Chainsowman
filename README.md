@@ -1,20 +1,20 @@
 <br/>
 <p align="center">
-  <a href="https://github.com/Atena Hatta/chainsowman">
+  <a href="https://github.com/AtenaHatta/chainsowman">
     <img src="img_title_chainsowman.png" alt="Logo" >
   </a>
 
   <h3 align="center"> Welcome to the ”Chainsaw Man” introduction website! Here you can explore the thrilling world of Chainsaw Man with story, characters, and author.</h3>
 
   <p align="center">
-    <a href="https://github.com/Atena Hatta/chainsowman"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/AtenaHatta/chainsowman"><strong>Explore the docs »</strong></a>
     <br/>
     <br/>
     <a href="https://tatsuki-fujimoto.netlify.app">View Demo</a>
     .
-    <a href="https://github.com/Atena Hatta/chainsowman/issues">Report Bug</a>
+    <a href="https://github.com/AtenaHatta/chainsowman/issues">Report Bug</a>
     .
-    <a href="https://github.com/Atena Hatta/chainsowman/issues">Request Feature</a>
+    <a href="https://github.com/AtenaHatta/chainsowman/issues">Request Feature</a>
   </p>
 </p>
 
@@ -41,10 +41,10 @@ JavaScript
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/Atena Hatta/chainsowman/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
+* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/AtenaHatta/chainsowman/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
 * Please make sure you check your spelling and grammar.
 * Create individual PR for each suggestion.
-* Please also read through the [Code Of Conduct](https://github.com/Atena Hatta/chainsowman/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
+* Please also read through the [Code Of Conduct](https://github.com/AtenaHatta/chainsowman/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
 
 ### Creating A Pull Request
 
@@ -56,7 +56,7 @@ Contributions are what make the open source community such an amazing place to b
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/Atena Hatta/chainsowman/blob/main/LICENSE.md) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/AtenaHatta/chainsowman/blob/main/LICENSE.md) for more information.
 
 ## Authors
 
