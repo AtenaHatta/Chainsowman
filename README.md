@@ -36,6 +36,8 @@ The Header section includes Story (Chapter 1, 2), Characters, and Author. This p
 
 ## Built With
 JavaScript
+HTML5
+CSS3
 
 
 ## Contributing
