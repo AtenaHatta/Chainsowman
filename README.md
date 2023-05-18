@@ -37,9 +37,6 @@ The Header section includes Story (Chapter 1, 2), Characters, and Author. This p
 ## Built With
 JavaScript
 
-## Roadmap
-
-See the [open issues](https://github.com/Atena Hatta/chainsowman/issues) for a list of proposed features (and known issues).
 
 ## Contributing
 
