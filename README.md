@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/Atena Hatta/chainsowman">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="img_title_chainsowman.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center"> Welcome to the ”Chainsaw Man” introduction website! Here you can explore the thrilling world of Chainsaw Man with story, characters, and author.</h3>
@@ -33,7 +33,7 @@
 
 ## About The Project
 
-![Screen Shot](images/screenshot.png)
+<img src="img_screenshot_chainsowman.png">
 
 The Header section includes Story (Chapter 1, 2), Characters, and Author. This page serves as a landing page, allowing you to scroll and view all the content. It's worth noting that for the animations, we've utilized only CSS and vanilla JavaScript.
 
