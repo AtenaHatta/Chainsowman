@@ -10,7 +10,7 @@
     <a href="https://github.com/Atena Hatta/chainsowman"><strong>Explore the docs »</strong></a>
     <br/>
     <br/>
-    <a href="https://github.com/Atena Hatta/chainsowman">View Demo</a>
+    <a href="https://tatsuki-fujimoto.netlify.app">View Demo</a>
     .
     <a href="https://github.com/Atena Hatta/chainsowman/issues">Report Bug</a>
     .
