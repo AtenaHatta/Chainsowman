@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/Atena Hatta/chainsowman">
-    <img src="img_title_chainsowman.png" alt="Logo" width="80" height="80">
+    <img src="img_title_chainsowman.png" alt="Logo" >
   </a>
 
   <h3 align="center"> Welcome to the ”Chainsaw Man” introduction website! Here you can explore the thrilling world of Chainsaw Man with story, characters, and author.</h3>
