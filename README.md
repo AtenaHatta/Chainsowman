@@ -35,9 +35,9 @@
 The Header section includes Story (Chapter 1, 2), Characters, and Author. This page serves as a landing page, allowing you to scroll and view all the content. It's worth noting that for the animations, we've utilized only CSS and vanilla JavaScript.
 
 ## Built With
-JavaScript
-HTML5
-CSS3
+*JavaScript
+*HTML5
+*CSS3
 
 
 ## Contributing
