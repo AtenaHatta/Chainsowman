@@ -7,10 +7,9 @@
   <h3 align="center"> Welcome to the ”Chainsaw Man” introduction website! Here you can explore the thrilling world of Chainsaw Man with story, characters, and author.</h3>
 
   <p align="center">
-    <a href="https://github.com/AtenaHatta/chainsowman"><strong>Explore the docs »</strong></a>
+    <a href="https://tatsuki-fujimoto.netlify.app"><strong>View Demo »</strong></a>
     <br/>
     <br/>
-    <a href="https://tatsuki-fujimoto.netlify.app">View Demo</a>
     .
     <a href="https://github.com/AtenaHatta/chainsowman/issues">Report Bug</a>
     .
