@@ -18,15 +18,6 @@
 </p>
 
 
-## Table Of Contents
-
-* [About the Project](#about-the-project)
-* [Built With](#built-with)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [License](#license)
-* [Authors](#authors)
-
 ## About The Project
 
 <img src="img_screenshot_chainsowman.png">
