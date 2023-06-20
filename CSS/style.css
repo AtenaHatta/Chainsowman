@@ -19,8 +19,6 @@ body {
 header {
   position: fixed;
   width: 100%;
-  animation: logo-appear 5s forwards 6s, logo-move 3s forwards 10s;
-  opacity: 0;
   z-index: 10001;
 }
 
@@ -29,7 +27,7 @@ header {
   justify-content: space-between;
   background-color: #944d4d;
   height:10%;
-  padding:0 5%;
+  padding:0.1% 5%;
 }
 
 .img-hand{
@@ -129,7 +127,7 @@ main .hero .load-text {
   left: 30%;
   top: 35%;
   opacity: 0;
-  animation: load-text 5s;
+  animation: load-text 4s;
 }
 
 
